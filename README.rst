@@ -31,17 +31,13 @@ appears in the workspace before guessing from its value alone.
 
 By itself, it is not uniquely identifiable.
 
-Numerically:
+Numerically::
 
-```text
-4.077422742688568 ≈ ln(58.9932330163)
-```
+    4.077422742688568 ≈ ln(58.9932330163)
 
-It is very close to:
+It is very close to::
 
-```text
-ln(59) = 4.07753744390572
-```
+    ln(59) = 4.07753744390572
 
 If this came from our compression/intelligence discussion, another plausible
 interpretation is an **entropy-like value**, about **4.08 bits per symbol** if
