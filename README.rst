@@ -26,27 +26,30 @@ User::
 
 Assistant::
 
-    That number could mean many things by itself, so I’ll first check whether it appears in the workspace before guessing from its value alone.
+That number could mean many things by itself, so I’ll first check whether it
+appears in the workspace before guessing from its value alone.
 
-Assistant::
+By itself, it is not uniquely identifiable.
 
-    By itself, it is not uniquely identifiable.
+Numerically:
 
-    Numerically:
+```text
+4.077422742688568 ≈ ln(58.9932330163)
+```
 
-    ```text
-    4.077422742688568 ≈ ln(58.9932330163)
-    ```
+It is very close to:
 
-    It is very close to:
+```text
+ln(59) = 4.07753744390572
+```
 
-    ```text
-    ln(59) = 4.07753744390572
-    ```
+If this came from our compression/intelligence discussion, another plausible
+interpretation is an **entropy-like value**, about **4.08 bits per symbol** if
+the logarithm base was 2. But if it is a natural-log result, it corresponds
+to about 59 effective possibilities.
 
-    If this came from our compression/intelligence discussion, another plausible interpretation is an **entropy-like value**, about **4.08 bits per symbol** if the logarithm base was 2. But if it is a natural-log result, it corresponds to about 59 effective possibilities.
-
-    So my best answer without more context: **it looks like a logarithm or entropy value, close to ln(59).**
+So my best answer without more context:
+**it looks like a logarithm or entropy value, close to ln(59).**
 
 User::
 
