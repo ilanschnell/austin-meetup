@@ -307,7 +307,9 @@ Verified with `cc -Wall -Wextra -pedantic diamond.c -o /tmp/diamond && /tmp/diam
 
 User::
 
-    Did you actually go through all the steps of unobfuscating the program, or did you just write a new one that does the same thing.  As a human, I would have done the later.
+    Did you actually go through all the steps of unobfuscating the program,
+    or did you just write a new one that does the same thing.
+    As a human, I would have done the later.
 
 Assistant::
 
@@ -341,7 +343,9 @@ In this case the shortcut was harmless enough, but less rigorous than it could h
 
 User::
 
-    Yes, for example the original obfuscated diamond program could in principle have an "easter egg" built into it.  For example './diamond -' does something completely different.
+    Yes, for example the original obfuscated diamond program could in
+    principle have an "easter egg" built into it.
+    For example './diamond -' does something completely different.
 
 Assistant::
 
